@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Médecine physique: réadaptation fonctionnelle, medicale,patients,handicape, physiatres </title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo1.ico" type="image/x-icon" /> 
+	<link rel="stylesheet" href="css/style2.css" type="text/css" media="screen" />
+  	<link rel="stylesheet" href="css/slide.css" type="text/css" media="screen" />
+	<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<script src="js/slide.js" type="text/javascript"></script>
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/bgstretcher.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script>
+	$(function(){
+      $('BODY').bgStretcher({
+        images: ['images/slide-1.jpg','images/slide-2.jpg','images/slide-3.jpg'],
+		imageWidth: 1600, 
+		imageHeight: 964, 
+		resizeProportionally:true,
+			slideDirection: 'N',
+			slideShowSpeed: 1000,
+			transitionEffect: 'fade',
+			sequenceMode: 'normal',		
+			pagination: '#nav'
+	
+       });	
+    });
+    </script>
+</head>
+<body>
+	 
+  <div id="toppanel" class="toppanel">
+	<div id="panel">
+		<div class="content clearfix">
+		
+			<div class="left">
+		<form action="php/index-6.php" method="post" class="clearfix">
+		<h1>Espace connexion</h1>
+		<label class="grey" for="log">Login:</label>
+					<input type="text" name="login" class="field" type="text" name="log" id="log" value="" size="23">
+					<label class="grey" for="pwd">Password:</label>
+					<input type="password" name="password" class="field" id="pwd" size="23" />
+        			<div class="clear"></div>
+						<input type="submit" name="submit" value="connexion" class="bt_login">
+						<input type="button" name="submit" value="s'inscrire" class="bt_register" onclick='document.location.href="php/index-7.php";'/>
+		</form>
+			</div>
+			
+		</div>
+</div> 	
+	<div class="tab">
+	
+		<ul class="login">
+			<li class="left">&nbsp;</li>
+			<li>Bonjour Visiteur</li>
+			<li class="sep">|</li>
+			<li id="toggle">
+				<a id="open" class="open" href="#">se connecter | s'inscrire</a>
+				<a id="close" style="display: none;" class="close" href="#">fermer</a>			
+			</li>
+			<li class="right">&nbsp;</li>
+		</ul>
+	</div> 
+	
+</div> 
+    <header>
+	<div class="extra-block">   
+    <div class="row-nav">
+        <div class="main">
+        <h1 class="logo"><a href="index.html"><img alt="Eni Gma" src="images/logo.png"></a></h1>
+        <nav>
+		
+           <ul class="menu">
+            <li class="current"><a href="index.html">Accueil</a></li>
+            <li><a href="index-1.html">A propos</a></li>
+            <li><a href="index-2.html">Services</a></li>
+            <li><a href="index-3.php">Galeries</a></li>
+            <li><a href="php/index-7.php">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+        </div>
+     </div>
+    </header>
+
+    <section id="content"><div class="ic"></div> 
+    <div class="main-block policy">
+    <div class="main">
+    <h1>Médecine physique et réadaptation fonctionnelle</h1>         
+	<p>La médecine physique et de réadaptation fonctionnelle(MPR) est une spécialité médicale orientée vers la récupération de capacités fonctionnelles et de qualité de vie des patients atteints d'handicape, congénital ou acquis, par accident par exemple. Les médecins qui ont approfondi ces études, souvent appelés « médecins rééducateurs »1, « physiatres » ou « médecins physiques », sont qualifiés en médecine physique et de réadaptation (MPR). Les rééducateurs sont particulièrement spécialisés dans les techniques de récupération d'une fonction optimale, particulièrement chez les sujets souffrant de lésion musculaire, ostéo-articulaire, cardio-respiratoire ou cérébrale (par exemple après un accident vasculaire cérébral).</p>	       
+    </div>
+    </div>  
+    </section> 
+    </div>
+    <div class="block">      
+    <footer>
+	<div class="mainaligncenter">
+    <div class="privacy"><a href="index-5.html" rel="nofollow">Politique privée</a></strong></div>
+	<ul class="list-soc">
+        <li><a href="https://www.facebook.com/cosssssmooossss"><img alt="" src="images/soc-icon1.png"></a></li>
+        <li><a href="https://twitter.com/cosmos_center"><img alt="" src="images/soc-icon2.png"></a></li>
+		 <li><a href="http://www.youtube.com/channel/UCVzBnYhbrnQlBai0xeyztyQ"><img alt="" src="images/youtube-icon-out.png"></a></li>
+      </ul>
+    </div>
+    </footer>
+    </div>
+</body>
+</html>
